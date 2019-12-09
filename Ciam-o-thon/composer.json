@@ -1,0 +1,21 @@
+{
+    "name": "falcon_php_sdk",
+    "description": "Falcon PHP SDK v1.0",
+    "keywords": ["falcon", "phpsdk"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "falcon",
+            "email": "developers@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "falconSDK\\": "src/FalconSDK/"
+        }
+    }
+}
